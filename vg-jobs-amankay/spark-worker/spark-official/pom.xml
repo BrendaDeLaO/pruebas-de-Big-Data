@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>pe.edu.vallegrande.amankay</groupId>
+        <artifactId>spark-worker</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>spark-official</artifactId>
+    <name>Amankay - Spark Official Sources</name>
+    <description>Módulo de extracción, validación y normalización de fuentes oficiales peruanas (IGP, SENAMHI, INDECI)</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>pe.edu.vallegrande.amankay</groupId>
+            <artifactId>spark-core</artifactId>
+        </dependency>
+    </dependencies>
+</project>

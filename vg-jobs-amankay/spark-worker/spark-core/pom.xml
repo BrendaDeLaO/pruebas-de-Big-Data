@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>pe.edu.vallegrande.amankay</groupId>
+        <artifactId>spark-worker</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>spark-core</artifactId>
+    <name>Amankay - Spark Core</name>
+    <description>Motor genérico del pipeline Medallion, calidad, publicación y tracking para jobs Spark de Amankay</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>pe.edu.vallegrande.amankay</groupId>
+            <artifactId>contracts</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.13</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+        </dependency>
+    </dependencies>
+</project>

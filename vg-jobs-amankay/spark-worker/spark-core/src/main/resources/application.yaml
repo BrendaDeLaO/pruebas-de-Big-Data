@@ -1,0 +1,12 @@
+worker:
+  app-name: Amankay Spark Worker
+  master: local[*]
+  shuffle-partitions: 4
+  driver-host: 127.0.0.1
+  time-zone: America/Lima
+  ui:
+    enabled: true
+    port: 4040
+  event-log:
+    enabled: true
+    directory: runtime/spark-events

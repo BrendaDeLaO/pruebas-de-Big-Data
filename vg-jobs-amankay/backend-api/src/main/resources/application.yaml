@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: amankay-backend-api
+  main:
+    web-application-type: reactive
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+amankay:
+  version: 1.0.0
+  environment: local
+  storage:
+    data-path: data/
+    output-path: output/
